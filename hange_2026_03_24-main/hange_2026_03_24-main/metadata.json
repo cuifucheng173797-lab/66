@@ -1,0 +1,9 @@
+{
+  "name": "hange",
+  "description": "A map application that shows your current location and helps you find the nearest coffee shop.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

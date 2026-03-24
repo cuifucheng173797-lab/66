@@ -1,0 +1,43 @@
+{
+  "name": "copy-of-1-29",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "start": "node server.ts",
+    "build": "vite build",
+    "lint": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.38.0",
+    "@vis.gl/react-google-maps": "^1.7.1",
+    "archiver": "^7.0.1",
+    "better-sqlite3": "^12.8.0",
+    "express": "^5.2.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^0.563.0",
+    "multer": "^2.1.1",
+    "openai": "^6.32.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-markdown": "^10.1.0",
+    "recharts": "^3.8.0",
+    "sqlite3": "^6.0.1",
+    "three": "^0.182.0",
+    "tsx": "^4.21.0",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@types/archiver": "^7.0.0",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/express": "^5.0.6",
+    "@types/google.maps": "^3.58.1",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
